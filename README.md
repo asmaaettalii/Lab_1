@@ -204,7 +204,7 @@ Les métriques principales (accuracy, precision, recall, F1, seuil optimal et ba
 <img width="483" height="219" alt="image" src="https://github.com/user-attachments/assets/59923d6e-e45d-4175-bdc8-de916ca55ab0" />
 
 
-#Étape 7 : Création de l’API de prédiction basée sur le modèle courant
+## Étape 7 : Création de l’API de prédiction basée sur le modèle courant
 
 
 Cette étape consiste à déployer une API FastAPI exposant un endpoint de prédiction qui utilise automatiquement le modèle actuellement actif dans la registry.
@@ -269,7 +269,7 @@ Chaque requête de prédiction est enregistrée dans le fichier logs/predictions
 
 <img width="1839" height="282" alt="image" src="https://github.com/user-attachments/assets/b08fafef-0ebd-4c54-aea4-f726157a9319" />
 
-##Étape 8 : Détection de dérive des données à partir des logs
+## Étape 8 : Détection de dérive des données à partir des logs
 
 
 Cette étape met en place un script simple de monitoring pour détecter une dérive des distributions des features d’entrée en comparant les données de production aux statistiques d’entraînement.
